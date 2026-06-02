@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Государственный архив Астраханской области — Учебный проект</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container header-container">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="Логотип" class="logo-img">
+            <div class="logo-text">
+                <span>ГКУ АО «ГААО»</span><br>
+                <small>Государственный архив Астраханской области</small>
+            </div>
+        </a>
+        <ul class="nav-list">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#funds">Фонды</a></li>
+            <li><a href="#publications">Публикации</a></li>
+            <li><a href="#unity-post">Единство в документах</a></li>
+            <li><a href="#archives">Архивы района</a></li>
+            <li><a href="https://vk.com/astrgosarhiv" target="_blank" class="vk-link">ВКонтакте</a></li>
+        </ul>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container">
+        <h1>Храним историю<br>Астраханского края</h1>
+        <div class="subhead">Более 1,5 миллионов дел. Документы с XVIII века до наших дней.</div>
+        <a href="#funds" class="btn">Перейти к фондам →</a>
+    </div>
+</section>
+
+<div class="container">
+    <!-- Блок Госуслуги -->
+    <div class="gosuslugi-banner">
+        <div class="gosuslugi-inner">
+            <div class="gosuslugi-text">
+                <div class="gosuslugi-badge">ГОЛОСОВАНИЕ НА ГОСУСЛУГАХ</div>
+                <h3>Решаем вместе! Выберите объект для благоустройства</h3>
+                <p>На платформе «Госуслуги. Решаем вместе» проходит голосование за приоритетные объекты благоустройства Астраханской области.</p>
+                <p>Ваше мнение повлияет на развитие городской среды — парки, набережные, скверы, общественные пространства.</p>
+            </div>
+            <a href="https://pos.gosuslugi.ru/lkp/fkgs/home/?utm_source=cur30&utm_medium=soc" target="_blank" class="gosuslugi-btn">Проголосовать →</a>
+        </div>
+    </div>
+
+    <!-- Фонды архива -->
+    <section id="funds">
+        <h2>Фонды архива</h2>
+        <div class="funds-grid">
+            <div class="fund-card">
+                <div class="fund-icon">📜</div>
+                <h3>Дореволюционные фонды</h3>
+                <p>Метрические книги, ревизские сказки, дела городских управ (1722–1917 гг.)</p>
+            </div>
+            <div class="fund-card">
+                <div class="fund-icon">📁</div>
+                <h3>Советский период</h3>
+                <p>Документы исполкомов, колхозов, предприятий (1918–1991 гг.)</p>
+            </div>
+            <div class="fund-card">
+                <div class="fund-icon">🖋️</div>
+                <h3>Личные архивы</h3>
+                <p>Фонды известных астраханцев: купцов, писателей, общественных деятелей</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Карусель с ФОТО -->
+    <section id="publications" class="publications-section">
+        <h2>Свежие публикации</h2>
+        <p style="margin-bottom: 20px;"></p>
+
+        <div class="swiper publicationsSwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" data-target="post1">
+                    <div class="slide-img">
+                        <img src="images/photo1.png" alt="Антитеррор" class="slide-img-img">
+                    </div>
+                    <div class="slide-content">
+                        <span class="slide-badge">Антитеррор</span>
+                        <div class="slide-title">Терроризм — угроза обществу!</div>
+                        <div class="slide-date">19 мая 2026</div>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-target="post2">
+                    <div class="slide-img">
+                        <img src="images/photo2.png" alt="Выставка" class="slide-img-img">
+                    </div>
+                    <div class="slide-content">
+                        <span class="slide-badge">Выставка</span>
+                        <div class="slide-title">Астраханская губерния в XIX веке</div>
+                        <div class="slide-date">2 июня 2026</div>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-target="post3">
+                    <div class="slide-img">
+                        <img src="images/photo3.png" alt="Семинар" class="slide-img-img">
+                    </div>
+                    <div class="slide-content">
+                        <span class="slide-badge">Обучение</span>
+                        <div class="slide-title">Семинар для генеалогов</div>
+                        <div class="slide-date">28 апреля 2026</div>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-target="post4">
+                    <div class="slide-img">
+                        <img src="images/photo4.png" alt="Оцифровка" class="slide-img-img">
+                    </div>
+                    <div class="slide-content">
+                        <span class="slide-badge">Оцифровка</span>
+                        <div class="slide-title">Метрические книги 1830–1860 гг.</div>
+                        <div class="slide-date">10 мая 2026</div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Полные посты с ФОТО -->
+    <section id="full-posts" class="full-posts">
+        <h2>Читать полностью</h2>
+
+        <div id="post1" class="full-post">
+            <div class="full-post-img">
+                <img src="images/photo1.png" alt="Терроризм" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="full-post-content">
+                <span class="full-post-badge">Антитеррор</span>
+                <div class="full-post-title">Терроризм — угроза обществу!</div>
+                <div class="full-post-date">19 мая 2026 · Официально</div>
+                <div class="full-post-text">
+                    <p>Государственный архив Астраханской области предлагает к просмотру видеоролик <strong>«Терроризм — угроза обществу!»</strong>, подготовленный Главным управлением по противодействию экстремизму МВД России.</p>
+                    <p>В представленном материале разъясняется понятие терроризма, источники его возникновения, основные формы проявления, а также причины, по которым данное явление остаётся одной из главных угроз безопасности общества.</p>
+                    <p><strong>⚠️ Обращаем ваше внимание на необходимость сохранения бдительности.</strong> Ответственное отношение каждого гражданина является вкладом в обеспечение общественной безопасности.</p>
+                    <p>Видеоролик доступен для просмотра в читальном зале архива.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="post2" class="full-post">
+            <div class="full-post-img">
+                <img src="images/photo2.png" alt="Выставка" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="full-post-content">
+                <span class="full-post-badge">Выставка</span>
+                <div class="full-post-title">Астраханская губерния в XIX веке</div>
+                <div class="full-post-date">2 июня 2026 · Новости архива</div>
+                <div class="full-post-text">
+                    <p>Приглашаем всех желающих на выставку редких карт, планов городов и чертежей Астраханской губернии XIX века. В экспозиции представлены документы из фондов № 1 (Канцелярия астраханского губернатора) и № 32 (Астраханская духовная консистория).</p>
+                    <p>📍 <strong>Место проведения:</strong> читальный зал архива (ул. Академика Королева, 47).<br>
+                    📅 <strong>Даты работы выставки:</strong> с 2 июня по 31 августа 2025 года.<br>
+                    🎟️ <strong>Вход свободный</strong> для всех категорий граждан.</p>
+                    <p>Для организованных групп (от 5 человек) возможна экскурсия с рассказом об истории картографии Астраханского края.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="post3" class="full-post">
+            <div class="full-post-img">
+                <img src="images/photo3.png" alt="Семинар" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="full-post-content">
+                <span class="full-post-badge">Обучение</span>
+                <div class="full-post-title">Семинар для генеалогов</div>
+                <div class="full-post-date">28 апреля 2026 · Мероприятия</div>
+                <div class="full-post-text">
+                    <p>Практический семинар <strong>«Как искать сведения о предках в архивных документах»</strong> состоится в читальном зале Государственного архива Астраханской области.</p>
+                    <ul>
+                        <li>работать с метрическими книгами (записи о рождении, браке и смерти);</li>
+                        <li>читать ревизские сказки (подушные переписи населения);</li>
+                        <li>составлять генеалогическое древо по архивным источникам;</li>
+                        <li>пользоваться электронным каталогом архива.</li>
+                    </ul>
+                    <p><strong>Время:</strong> 28 апреля 2026 в 15:00.<br> <strong>Место:</strong> читальный зал архива, ул. Академика Королева, 47.<br> <strong>Участие бесплатное</strong>, запись по телефону.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="post4" class="full-post">
+            <div class="full-post-img">
+                <img src="images/photo4.png" alt="Оцифровка" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="full-post-content">
+                <span class="full-post-badge">Оцифровка</span>
+                <div class="full-post-title">Метрические книги 1830–1860 гг.</div>
+                <div class="full-post-date">10 мая 2026 · Проекты</div>
+                <div class="full-post-text">
+                    <p>Государственный архив Астраханской области завершил масштабный проект по оцифровке 1200 метрических книг за 1830–1860 годы. Теперь эти документы доступны для удаленного просмотра в электронном читальном зале.</p>
+                    <ul>
+                        <li>искать записи по фамилии и дате;</li>
+                        <li>скачивать изображения страниц в высоком разрешении;</li>
+                        <li>заказывать копии для генеалогических исследований.</li>
+                    </ul>
+                    <p>Доступ предоставляется бесплатно для всех посетителей читального зала.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Единство в документах -->
+    <section id="unity-post">
+        <div class="full-post">
+            <div class="full-post-img">
+                <img src="images/photo5.png" alt="Единство в документах" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="full-post-content">
+                <span class="full-post-badge">Единство в документах эпохи</span>
+                <div class="full-post-title">Выпуск 4: Единое Здоровье — сберегая Жизни</div>
+                <div class="full-post-date">2026 год · Год единства народов России</div>
+                <div class="full-post-text">
+                    <p>Государственный архив Астраханской области в рамках просветительской рубрики <strong>«Единство в документах эпохи»</strong>, приуроченной к Году единства народов России, представляет четвёртый выпуск, посвящённый развитию здравоохранения в Астраханском крае.</p>
+                    <p>В фондах архива хранится обширный пласт документов по истории медицины региона. Для данного выпуска взяты материалы отдела здравоохранения Астраханского облисполкома за 1974–1985 годы, связанные с награждением знаком <strong>«Отличнику здравоохранения»</strong>.</p>
+                    <ul class="honored-list">
+                        <li>Хрящев Валерий Александрович – главврач Наримановской ЦРБ</li>
+                        <li>Суслова Юлия Александровна – зав. гинекологическим отделением</li>
+                        <li>Скрибунова Маргарита Дмитриевна – зав. соматическим отделением</li>
+                        <li>Пикалов Алексей Алексеевич – зав. радиологическим отделением</li>
+                        <li>Сиротова Наталья Артемовна – главврач Второй областной больницы</li>
+                        <li>Бахтиярова Гальшад Сахавиевна – врач-эпидемиолог</li>
+                        <li>Сейтназарова Равза Касымовна – зам. главврача Наримановской ЦРБ</li>
+                        <li>Алимова Алимя Хамзеновна – зав. отделением областной детской больницы</li>
+                        <li>Абляева Хадича Ибрагимовна – зав. гинекологическим отделением</li>
+                        <li>Муртазаева Галия Закировна – зав. поликлиникой, депутат сельсовета</li>
+                        <li>Адямов Даут Хамитович – зав. хирургическим отделением</li>
+                        <li>Казиев Чапай Максутович – главврач Волго-Каспийской больницы</li>
+                        <li>Радионенко Андрей Романович – главврач Лиманской ЦРБ</li>
+                        <li>Клейнер Григорий Абрамович – ординатор-нейрохирург</li>
+                        <li>Расин Моисей Абрамович – главврач психиатрической больницы</li>
+                    </ul>
+                    <p><strong>Среди награждённых – представители разных национальностей:</strong> русские, украинцы, белорусы, евреи, поляки, молдаване, болгары, мордвины.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Архивы района -->
+    <section id="archives">
+        <h2>Архивы Астраханской области</h2>
+        <div class="archives-grid">
+            <div class="archive-card">
+                <h4>МКУ «Астраханский городской архив»</h4>
+                <p>📍 ул. Дзержинского/Карла Маркса, 1/13</p>
+                <p>📞 +7 (8512) 27-14-22</p>
+            </div>
+            <div class="archive-card">
+                <h4>Архивный отдел «Ахтубинский район»</h4>
+                <p>📍 ул. Гагарина, 18 Б, г. Ахтубинск</p>
+                <p>📞 8 (851-41) 5-11-36</p>
+            </div>
+            <div class="archive-card">
+                <h4>Архивный отдел «Володарский район»</h4>
+                <p>📍 ул. Суворова, 7, п. Володаровка</p>
+                <p>📞 8 (851-42) 9-12-92</p>
+            </div>
+            <div class="archive-card">
+                <h4>Архив «Енотаевский район»</h4>
+                <p>📍 ул. Днепровская, 9, с. Енотаевка</p>
+                <p>📞 8 (851-43) 9-13-30</p>
+            </div>
+            <div class="archive-card">
+                <h4>Архивный отдел «Икрянинский район»</h4>
+                <p>📍 ул. 1 Мая, 21, с. Икряное</p>
+                <p>📞 8 (851-44) 3-10-45</p>
+            </div>
+            <div class="archive-card">
+                <h4>Архивный отдел «Камызякский район»</h4>
+                <p>📍 ул. Максима Горького, 71-Б, г. Камызяк</p>
+                <p>📞 8 (851-45) 98-1-79</p>
+            </div>
+            <div class="archive-card">
+                <h4>Красноярский районный архив</h4>
+                <p>📍 ул. Советская, 62-А, с. Красный Яр</p>
+                <p>📞 8 (851-46) 9-17-07</p>
+            </div>
+            <div class="archive-card">
+                <h4>Архивный отдел «Лиманский район»</h4>
+                <p>📍 ул. Героев, 115, п. Лиман</p>
+                <p>📞 8 (851-47) 2-16-60</p>
+            </div>
+            <div class="archive-card">
+                <h4>Архивный отдел «Наримановский район»</h4>
+                <p>📍 ул. Центральная, 10, г. Нариманов</p>
+                <p>📞 8 (851-71) 70-2-67</p>
+            </div>
+            <div class="archive-card">
+                <h4>Архивный отдел «Приволжский район»</h4>
+                <p>📍 ул. Ленина, 41, с. Началово</p>
+                <p>📞 8 (8512) 22-01-63</p>
+            </div>
+            <div class="archive-card">
+                <h4>Архивный отдел «Харабалинский район»</h4>
+                <p>📍 ул. Ленина, 14, г. Харабали</p>
+                <p>📞 8 (851-48) 5-16-95</p>
+            </div>
+            <div class="archive-card">
+                <h4>Архивный отдел «Черноярский район»</h4>
+                <p>📍 ул. Маршала Жукова, 9, с. Чёрный Яр</p>
+                <p>📞 8 (851-49) 2-10-29</p>
+            </div>
+            <div class="archive-card">
+                <h4>Архив ЗАТО Знаменск</h4>
+                <p>📍 ул. Вознюка, 1, г. Знаменск</p>
+                <p>📞 8 (851-40) 2-39-67</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact">
+        <h2>Контакты</h2>
+        <div class="contact-card">
+            <p><strong>📍 Адрес:</strong> г. Астрахань, ул. Академика Королева, 47</p>
+            <p><strong>📞 Телефон:</strong> +7 (8512) 51-12-34</p>
+            <p><strong>✉️ Email:</strong> <a href="mailto:archive@astrobl.ru">archive@astrobl.ru</a></p>
+            <p><strong>🕒 Режим работы:</strong> Пн–Чт 9:00–17:30, Пт 9:00–16:30</p>
+            <p><strong>ВКонтакте:</strong> <a href="https://vk.com/astrgosarhiv" target="_blank">vk.com/astrgosarhiv</a></p>
+        </div>
+    </section>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div>
+                <h4>ГКУ АО «ГААО»</h4>
+                <p>Государственный архив Астраханской области</p>
+                <p>📍 ул. Академика Королева, 47</p>
+                <p>📞 +7 (8512) 51-12-34</p>
+            </div>
+            <div>
+                <h4>Мы в соцсетях</h4>
+                <div class="social-icons">
+                    <a href="https://vk.com/astrgosarhiv" target="_blank">VK</a>
+                </div>
+            </div>
+            <div>
+                <h4>Разделы сайта</h4>
+                <p><a href="#funds">Фонды</a></p>
+                <p><a href="#publications">Публикации</a></p>
+                <p><a href="#unity-post">Единство в документах</a></p>
+                <p><a href="#archives">Архивы района</a></p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 Учебный проект в рамках производственной практики ПМ.08 «Разработка дизайна веб-приложений»</p>
+            <p>Студент: Мукашова Сабина Амировна, группа ИСП 3109</p>
+            <p>Данный сайт является неофициальным, создан в образовательных целях</p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
